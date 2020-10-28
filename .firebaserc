@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "srm-ng-ttt": {
+      "hosting": {
+        "NgTicTacToe": [
+          "srm-ng-ttt"
+        ]
+      }
+    }
+  }
+}
