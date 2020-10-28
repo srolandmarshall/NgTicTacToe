@@ -6,25 +6,22 @@ import { AppComponent } from './app.component';
 import { SquareComponent } from './square/square.component';
 import { BoardComponent } from './board/board.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NbThemeModule, NbLayoutModule } from '@nebular/theme';
+import { NbThemeModule, NbLayoutModule, NbButtonModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SquareComponent,
-    BoardComponent
-  ],
+  declarations: [AppComponent, SquareComponent, BoardComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     NbThemeModule.forRoot({ name: 'dark' }),
     NbLayoutModule,
-    NbEvaIconsModule
+    NbEvaIconsModule,
+    NbButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [SquareComponent]
+  exports: [SquareComponent],
 })
-export class AppModule { }
+export class AppModule {}
