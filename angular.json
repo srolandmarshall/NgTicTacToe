@@ -133,5 +133,8 @@
       }
     }
   },
-  "defaultProject": "NgTicTacToe"
+  "defaultProject": "NgTicTacToe",
+  "cli": {
+    "analytics": "92896cb4-0884-4362-b0a7-b9217c983ef1"
+  }
 }
